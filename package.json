@@ -1,0 +1,14 @@
+{
+  "name": "slack-invite",
+  "version": "0.0.1-alpha.1",
+  "description": "Test signup auto-invite to slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Boyle <benjamins.boyle@gmail.com> (http://ultimate.benboyle.id.au)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "slack": "^5.2.0"
+  }
+}
