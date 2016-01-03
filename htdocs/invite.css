@@ -1,0 +1,19 @@
+body {
+	background: #fafafa;
+	color: #111;
+}
+
+
+form > ol,
+form > ol > li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+form > ol > li {
+	margin: 1rem 0;
+}
+
+input {
+	display: block;
+}
