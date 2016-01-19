@@ -2,7 +2,7 @@
   "name": "slack-invite",
   "version": "0.0.1",
   "description": "Automate invite process for slack",
-  "main": "dist/slack-invite.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
