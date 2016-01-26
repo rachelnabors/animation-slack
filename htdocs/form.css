@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #C7436D;   
+    margin: 1rem 0 0 15rem;
+}
+
+.container {
+    width: 90vw;
+    height: 60vw;
+    max-height: 600px;
+    max-width: 800px;
+    position: relative;	
+    overflow: hidden; 
+    background: yellow;
+    margin: 2rem auto;
+    
+}
+
+p {
+    font-size: 1.2rem; 
+    margin: 1rem 0 0 15rem;
+}
