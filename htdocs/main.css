@@ -1,15 +1,61 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'AlegreyaSans';
+    src: url('AlegreyaSans-ExtraBold.ttf') format('truetype');
+}
+
+
+
 body{
     font-family: 'Roboto', sans-serif;	
     text-align: center;  
     margin: 0;
     font-size: 1.2rem;
+    background: #fafafa;
+	color: #111;
 }
 
-input {
-    margin: 0 auto;  
+h2 {
+    color: #555459;
+    
 }
 
-button {
- padding: 1rem 3rem;   
+p {
+    color: #555459;
+    
 }
+
+.main {
+    width: calc(100% - 2rem);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.greenHeader {
+    font-family: 'AlegreyaSans', sans-serif;
+    color: #56B68B;
+    
+}
+
+.pic {
+    width: 10rem;
+    height: 10rem;
+    background: #eee;
+    margin: 2rem auto;
+    
+}
+    
+
+
 

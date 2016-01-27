@@ -3,30 +3,31 @@
 <head>
     
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Invite user</title>
 	<link rel="stylesheet" href="../../htdocs/invite.css">
 	<link rel="stylesheet" href="../../htdocs/main.css">
-	<link rel="stylesheet" href="../../htdocs/form.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:900' rel='stylesheet' type='text/css'>
     
 </head>
     
 <body>
     
-    <div class="container">
-        <h1>Web Animation Non-Stop!</h1>
+    <div class="main">
+        
+        
+        <h1 class="greenHeader">Web Animation Non-Stop!</h1>        
+        <div class="picCat"></div>
         <p>Become a part of our Community!<br> Sing up and interact with supporters. </p>
     
             <form action="/invite" method="POST">
 		<ol>
 			<li>
-				<label for="first-name">First name</label>
-				<input type="text" id="first-name" name="first_name" required>
+<!--				<label for="first-name">First name</label>-->
+				<input type="text" id="first-name" name="first_name" placeholder="First name" required>
 			</li>
 			<li>
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" size="40" required>
+<!--				<label for="email">Email</label>-->
+				<input type="email" id="email" name="email" placeholder="E-mail"  required>
 			</li>
 			<li>
 				<button>Invite</button>
