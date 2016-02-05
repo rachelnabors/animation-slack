@@ -63,7 +63,7 @@ server.route({
 
 		// data for the invite API
 		var inviteData = query.stringify({
-			token: "xoxp-15870743268-15875780385-20387706950-5014173d94",
+			token: "xoxp-15870743268-15875780385-20390262178-9ab797d9f0",
 			email: request.payload.email,
 			first_name: request.payload.first_name
 		});
