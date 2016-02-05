@@ -1,14 +1,19 @@
 {
-  "name": "slack-invite",
+  "name": "animation-slack",
   "version": "0.0.1",
-  "description": "Automate invite process for slack",
+  "description": "Automate invite process for web animation slack community",
+  "private": true,
+  "license": "UNLICENSED",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ben Boyle <benjamins.boyle@gmail.com> (http://ultimate.benboyle.id.au)",
-  "license": "UNLICENSED",
+  "author": "Rachel Nabors <rachelnabors@gmail.com>",
+  "contributors": [
+    "Ben Boyle <benjamins.boyle@gmail.com>",
+    "Yana Delyukina"
+  ],
   "dependencies": {
     "handlebars": "^4.0.5",
     "hapi": "^12.1.0",

@@ -4,7 +4,7 @@ A simple web app allowing animators to sign up for the Slack Channel.
 
 ## Built with
 
-- node.js
+- node.js *(node v4.2+ and npm 3.5.4+ recommended)*
 - hapi (app server) + various helper plugins
 - handlebars (templating)
 - HTML and CSS!
@@ -14,7 +14,7 @@ A simple web app allowing animators to sign up for the Slack Channel.
 1. Clone repo
 2. install dependencies with `npm install` (assuming you have a node + npm development environment)
 3. set an environment variable named `SLACK_API_TOKEN` with your slack API TOKEN
-   (*keep it private, don't publish it in the source code*)
+   (*keep it private, don't publish it in the source code*) See [https://api.slack.com/web](https://api.slack.com/web) to get a slack API token.
 4. run `node dist/index.js` to start the hapi server
 5. visit the web address (for local testing this is `http://localhost:8000/invite`)
 
