@@ -56,14 +56,14 @@ server.route({
 	},
 	handler: function handler(request, reply) {
 		// check for API token environment variable
-		if (!env.SLACK_API_TOKEN) {
-			reply.view('error/not-authed.html');
-			return;
-		}
+		// if (!env.SLACK_API_TOKEN) {
+		// 	reply.view('error/not-authed.html');
+		// 	return;
+		// }
 
 		// data for the invite API
 		var inviteData = query.stringify({
-			token: env.SLACK_API_TOKEN,
+			token: "xoxp-15870743268-15875780385-20387706950-5014173d94",
 			email: request.payload.email,
 			first_name: request.payload.first_name
 		});
