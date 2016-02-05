@@ -13,7 +13,7 @@ var Joi = require('joi');
 var server = new Hapi.Server();
 
 server.connection({
-	host: 'localhost',
+	// host: 'localhost',
 	port: env.PORT || 8000
 });
 
