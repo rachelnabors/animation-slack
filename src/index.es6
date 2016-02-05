@@ -15,8 +15,7 @@ const Joi   = require( 'joi' );
 const server = new Hapi.Server();
 
 server.connection({
-	host: 'localhost',
-	port: 8000
+	port: env.PORT || 8000
 });
 
 
@@ -39,7 +38,7 @@ server.register(require( 'vision' ), ( err ) => {
 // show invite form
 server.route({
 	method: 'GET',
-	path: '/invite',
+	path: '/',
 	handler: function( request, reply ) {
 		reply.view( 'invite/invite-form.html' );
 	}
@@ -131,7 +130,7 @@ server.register(require( 'inert' ), ( err ) => {
 
 	server.route({
 		method: 'GET',
-		path: '/{param*}',
+		path: '/assets/{param*}',
 		handler: {
 			directory: {
 				path: require( 'path' ).join( __dirname, '../htdocs/' )
