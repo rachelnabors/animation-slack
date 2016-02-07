@@ -7,6 +7,23 @@
 	<title>Invite user</title>
 	<link rel="stylesheet" href="/assets/invite.css">
 	<link rel="stylesheet" href="/assets/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        
+    <script>
+			
+		window.onload = function() {
+		
+			var i = 0;
+			while (i < 10) {
+				TweenMax.fromTo("#steam"+(i+1), 10, {opacity:1, scale:0}, 
+								  			        {opacity:0, scale:1.7, repeat:-1, delay:i, ease: Power2.easeIn} );
+			i++;};
+						
+			TweenMax.to("#catTail",0.35, {backgroundPosition:"100% 50%", 
+										  ease:SteppedEase.config(4), repeat:-1, repeatDelay:1, yoyo:true} );			
+		}
+		
+	</script>
 
 </head>
 
@@ -14,9 +31,29 @@
 
     <div class="main">
 
-
-        <h1 class="greenHeader">Web Animation Non-Stop!</h1>
-        <div class="picCat"></div>
+        <h1 class="greenHeader">Animation at Work</h1>
+        
+        <div class="container">
+			<div class="scene" style="background-image: url(/assets/workspace.png)">
+				<div class="screen"></div>
+			</div>
+		
+			<div class="steam" id="steam1"></div>
+			<div class="steam" id="steam2"></div>
+			<div class="steam" id="steam3"></div>
+			<div class="steam" id="steam4"></div>
+			<div class="steam" id="steam5"></div>
+			<div class="steam" id="steam6"></div>
+			<div class="steam" id="steam7"></div>
+			<div class="steam" id="steam8"></div>
+			<div class="steam" id="steam9"></div>
+		
+			<div class="scene" style="background-image: url(/assets/catBody.png)"></div>
+			<div class="scene" style="background-image: url(/assets/cup.png)"></div>
+			<div class="scene tail" id="catTail"></div>
+			
+		</div>
+        
         <p>Become a part of our Community!<br> Sing up and interact with supporters. </p>
 
             <form action="/invite" method="POST">

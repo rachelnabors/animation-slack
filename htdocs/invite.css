@@ -8,6 +8,55 @@ form > ol > li {
 	margin: 1rem 0;
 }
 
+.container {
+    width: 90vw;
+    height: 60vw;
+    max-height: 400px;
+    max-width: 600px;
+    position: relative;	
+    overflow: hidden;
+}
+			
+.scene {
+    width: 90vw;
+    height: 60vw;
+    max-height: 400px;
+    max-width: 600px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+				
+.screen {
+    width: 45%;
+    height: 36%;
+    top: 13%;
+    left: 28%;
+    position: absolute;
+    background: url(/assets/slack.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.tail {
+    background-image: url(catTail.png); 
+    background-size: cover; 
+    background-position: 0% 50%
+}
+
+.steam {
+    width: 28%;
+    height: 51%;
+    position: absolute;
+    left: 19%;
+    top: 21%;
+    background: url(/assets/steam.png) no-repeat 50% 50%;
+    background-size: contain;
+    transform-origin: bottom center;
+    opacity: 0;
+}
+
 input {
 	display: block;
     width: 70%;
@@ -17,37 +66,20 @@ input {
     margin: 0.5rem auto 0.5rem auto;
     outline-color: #56B68B;
     color: #56B68B;
-    padding: 3px 0; 
-}
-
-.picCat {
-    width: 90vw;
-    height: 60vw;
-    max-height: 400px;
-    max-width: 600px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: contain;
-    background-image: url(cat_placeholder.png);
+    padding: 3px 6px; 
 }
 
 button {
     background-color: #56B68B;
     border: none;
-    /* border-radius: 0; */
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
     font-size: 1.5rem;
-    /* font-weight: normal; */
     height: 3.5rem;
-    /* line-height: 3.5rem; */
     margin: 0.5rem 0;
     padding: 0;
     text-align: center;
-    /* text-decoration: none; */
-    /* vertical-align: top; */
-    /* white-space: nowrap; */
     width: 12rem;
     
 }
