@@ -31,11 +31,11 @@ form > ol > li {
 				
 .screen {
     width: 45%;
-    height: 36%;
-    top: 13%;
+    height: 28%;
+    top: 15%;
     left: 28%;
     position: absolute;
-    background: url(/assets/slack.jpg) no-repeat 50% 50%;
+    background: url(/assets/cubic.gif) no-repeat 50% 50%;
     background-size: contain;
 }
 
@@ -88,3 +88,36 @@ button:active {
     background-color: #6FCEA3;
     outline: none;
 }
+
+
+.credits {
+    background: #777;
+    color: #aaa;
+    padding: 2rem;
+    margin-top: 8rem;
+}
+
+.creditBlock {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    background: no-repeat 50% 50%;
+    background-size: contain;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a {
+   color: #56B68B;  
+}
+
+a:visited {
+  color: #56B68B;   
+    
+}
+		
