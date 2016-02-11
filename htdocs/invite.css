@@ -100,17 +100,18 @@ button:active {
 
 .creditBlock {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     display: inline-block;
 }
 
 .logo {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     background: no-repeat 50% 50%;
     background-size: contain;
     display: inline-block;
     margin: 0 1rem;
+
 }
 
 a {
