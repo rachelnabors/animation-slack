@@ -51,8 +51,9 @@ p {
 .pic {
     width: 10rem;
     height: 10rem;
-    background: #eee;
     margin: 2rem auto;
+    background: 50% 50% no-repeat;
+    background-size: contain;
     
 }
     
